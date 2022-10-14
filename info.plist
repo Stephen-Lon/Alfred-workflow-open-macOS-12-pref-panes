@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.src.prefpanes</string>
+	<key>category</key>
+	<string>Utilities</string>
+	<key>connections</key>
+	<dict>
+		<key>5812F74E-1C48-4400-BE04-B7532D7E2D1C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8A3375B0-5B3C-4C0F-9446-946DDDD44B93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8A3375B0-5B3C-4C0F-9446-946DDDD44B93</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>27F61507-9A94-4D9D-A5E8-5270D78A1662</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9FADCAF7-15C0-4D4B-B599-766C127D304C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9FADCAF7-15C0-4D4B-B599-766C127D304C</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Christy</string>
+	<key>description</key>
+	<string>Opens listed macOS 12 preference pane</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open macOS 12 pref panes</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"title":"Accessibility","arg":"x-apple.systempreferences:com.apple.preference.universalaccess"},{"title":"Apple ID","arg":"x-apple.systempreferences:com.apple.preferences.AppleIDPrefPane"},{"title":"Battery","arg":"x-apple.systempreferences:com.apple.preference.battery"},{"title":"Bluetooth","arg":"com.apple.preferences.Bluetooth"},{"title":"Date &amp; Time","arg":"com.apple.preference.datetime"},{"title":"Desktop &amp; Screensaver","arg":"com.apple.preference.desktopscreeneffect"},{"title":"Displays","arg":"com.apple.preference.displays"},{"title":"Dock &amp; Menu Bar","arg":"com.apple.preference.dock"},{"title":"Extensions","arg":"com.apple.preferences.extensions"},{"title":"Family Sharing","arg":"x-apple.systempreferences:com.apple.preferences.FamilySharingPrefPane"},{"title":"Filevault tab","arg":"x-apple.systempreferences:com.apple.preference.security?FDE"},{"title":"Firewall Tab","arg":"x-apple.systempreferences:com.apple.preference.security?Firewall"},{"title":"Focus","arg":"x-apple.systempreferences:com.apple.preference.notifications?Focus"},{"title":"General","arg":"com.apple.preference.general"},{"title":"General Tab","arg":"x-apple.systempreferences:com.apple.preference.security?General"},{"title":"Internet Accounts","arg":"com.apple.preferences.internetaccounts"},{"title":"Keyboard","arg":"com.apple.preference.keyboard"},{"title":"Language &amp; Region","arg":"x-apple.systempreferences:com.apple.Localization"},{"title":"Mission Control","arg":"com.apple.preference.expose"},{"title":"Mouse","arg":"com.apple.preference.mouse"},{"title":"Network","arg":"com.apple.preference.network"},{"title":"Notifications","arg":"x-apple.systempreferences:com.apple.preference.notifications?Notifications"},{"title":"Passwords","arg":"com.apple.Passwords"},{"title":"Printers &amp; Scanners","arg":"com.apple.preference.printfax"},{"title":"Privacy Tab","arg":"x-apple.systempreferences:com.apple.preference.security?Privacy"},{"title":"Profiles","arg":"x-apple.systempreferences:com.apple.preferences.configurationprofiles"},{"title":"Screen Time","arg":"x-apple.systempreferences:com.apple.preference.screentime"},{"title":"Security &amp; Privacy","arg":"x-apple.systempreferences:com.apple.preference.security"},{"title":"Sharing","arg":"x-apple.systempreferences:com.apple.preferences.sharing"},{"title":"Siri","arg":"x-apple.systempreferences:com.apple.preference.speech"},{"title":"Software Update","arg":"x-apple.systempreferences:com.apple.preferences.softwareupdate"},{"title":"Sound","arg":"com.apple.preference.sound"},{"title":"Spotlight","arg":"com.apple.preference.spotlight"},{"title":"Startup Disk","arg":"com.apple.preference.startupdisk"},{"title":"System Preferences","arg":"x-apple.systempreferences:com.apple.preferences"},{"title":"Time Machine","arg":"com.apple.prefs.backup"},{"title":"Touch ID","arg":"x-apple.systempreferences:com.apple.preferences.password"},{"title":"Trackpad","arg":"com.apple.preference.trackpad"},{"title":"Users &amp; Groups","arg":"com.apple.preferences.users"},{"title":"Wallet &amp; Apple Pay","arg":"x-apple.systempreferences:com.apple.preferences.wallet"}]</string>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the preferene pane you wish to open</string>
+				<key>title</key>
+				<string>Open chosen macOS 12 preference pane</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>5812F74E-1C48-4400-BE04-B7532D7E2D1C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>x-apple</string>
+						<key>outputlabel</key>
+						<string>URL</string>
+						<key>uid</key>
+						<string>27F61507-9A94-4D9D-A5E8-5270D78A1662</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>AppleScript</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>8A3375B0-5B3C-4C0F-9446-946DDDD44B93</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  set theQuery to item 1 of argv
+	tell application "System Preferences"
+		activate
+		set the current pane to pane id theQuery
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9FADCAF7-15C0-4D4B-B599-766C127D304C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Note 
+
+This workflow has been tested on macOS 12.6 and is not guaranteed to work on other macOS versions. In particular note that it is very unlikely to work with the new `System Settings` in macOS Ventura when that is released (and has not been tested with beta versions of macOS Ventura).
+
+---
+
+# Usage
+
+This workflow lists, in response to the user configurable `prefs` keyword, various macOS System Preference panes. When you select the relevant pane from the alphabetical, searchable list simply press &lt;Enter&gt; to display the pane.
+
+I have chosen to keep the list of panes in alphabetical order—rather than allowing Alfred to sort them based on usage—as they seem to me easier to browse in that order. If you feel there are too many panes listed by all means delete from the list filter those you do not wish to see.
+
+# Acknowledgment
+
+See, generally, [How to open every macOS System Preferences Pane](https://github.com/bvp663/MacAdmin/blob/main/macos_preferencepanes.md)—to the author of which I am much indebted.</string>
+	<key>uidata</key>
+	<dict>
+		<key>2739207C-A263-4FBD-A4E3-E1C7891D9DC1</key>
+		<dict>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>5812F74E-1C48-4400-BE04-B7532D7E2D1C</key>
+		<dict>
+			<key>note</key>
+			<string>The list of the various System Prefences panes that can be opened by this workflow</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>35</real>
+		</dict>
+		<key>8A3375B0-5B3C-4C0F-9446-946DDDD44B93</key>
+		<dict>
+			<key>note</key>
+			<string>If the input is x-apple.* use the Open URL action to open the pane otherwise use AppleScript</string>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>55</real>
+		</dict>
+		<key>9FADCAF7-15C0-4D4B-B599-766C127D304C</key>
+		<dict>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>prefs</string>
+				<key>placeholder</key>
+				<string>prefs</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The default keyword to run this workflow is "prefs". You can change it here.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
